@@ -1,10 +1,10 @@
 <template>
   <h1>Dashboard</h1>
-  <ValueList />
+  <diabetes-entry-form />
 </template>
 
 <script setup>
-import ValueList from "../public/components/ValueList.vue";
+import DiabetesEntryForm from "../public/components/DiabetesEntryForm.vue";
 
 console.log("Dashboard component loaded");
 </script>

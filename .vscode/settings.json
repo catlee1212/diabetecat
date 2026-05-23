@@ -1,0 +1,5 @@
+{
+  "terminal.integrated.env.windows": {
+    "PATH": "C:\\dev\\Node_22.22.3;${env:PATH}"
+  }
+}

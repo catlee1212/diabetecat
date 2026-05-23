@@ -2,8 +2,9 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
+  css: ['bootstrap/dist/css/bootstrap.min.css'],
   app: {
-    baseURL: process.env.NODE_ENV === 'production' ? 'https://catlee1212.github.io/diabetecat/' : '/'
+    baseURL: import.meta.env.PROD ? '/diabetecat/' : '/'
   },
 
   nitro: {

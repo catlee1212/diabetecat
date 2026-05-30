@@ -1,0 +1,1235 @@
+[
+  {
+    "type": "glucose",
+    "value": 442,
+    "unit": null,
+    "measured_at": "2026-05-11T11:45",
+    "level": -1,
+    "note": "",
+    "id": "49db8f4c-c7ef-40e7-a114-531001934f95"
+  },
+  {
+    "type": "glucose",
+    "value": 304,
+    "unit": null,
+    "measured_at": "2026-05-11T15:30",
+    "level": 2,
+    "note": "",
+    "id": "6e826e64-5f89-4835-a876-c7e66d31f768"
+  },
+  {
+    "type": "glucose",
+    "value": 176,
+    "unit": null,
+    "measured_at": "2026-05-11T17:30",
+    "level": 1,
+    "note": "",
+    "id": "0f64804f-1d26-4f0a-965d-70eb3a17df2d"
+  },
+  {
+    "type": "glucose",
+    "value": 107,
+    "unit": null,
+    "measured_at": "2026-05-11T21:30",
+    "level": 1,
+    "note": "",
+    "id": "4f6c427c-e382-4b89-86f9-fad0cc7b5527"
+  },
+  {
+    "type": "glucose",
+    "value": 378,
+    "unit": null,
+    "measured_at": "2026-05-12T08:00",
+    "level": 2,
+    "note": "",
+    "id": "44841b7f-3f16-41a3-aec2-013a6cda1a2d"
+  },
+  {
+    "type": "glucose",
+    "value": 372,
+    "unit": null,
+    "measured_at": "2026-05-12T12:00",
+    "level": 2,
+    "note": "",
+    "id": "378a9a06-25af-454d-b12b-02087fa4a21a"
+  },
+  {
+    "type": "glucose",
+    "value": 357,
+    "unit": null,
+    "measured_at": "2026-05-12T16:30",
+    "level": 2,
+    "note": "",
+    "id": "6b707711-23be-4fa7-a8f2-c4ad90af3432"
+  },
+  {
+    "type": "glucose",
+    "value": 554,
+    "unit": null,
+    "measured_at": "2026-05-13T08:22",
+    "level": -1,
+    "note": "Insulin: 2 units",
+    "id": "e6b6b60f-d41e-4394-a046-4b512dee59f7"
+  },
+  {
+    "type": "glucose",
+    "value": 508,
+    "unit": null,
+    "measured_at": "2026-05-13T11:23",
+    "level": -1,
+    "note": "",
+    "id": "90b5c710-6313-41f4-b7b3-38c3103b727f"
+  },
+  {
+    "type": "glucose",
+    "value": 577,
+    "unit": null,
+    "measured_at": "2026-05-13T17:00",
+    "level": -1,
+    "note": "",
+    "id": "edba5752-ab7e-45e0-87ff-38848866f6a0"
+  },
+  {
+    "type": "glucose",
+    "value": 568,
+    "unit": null,
+    "measured_at": "2026-05-13T19:56",
+    "level": -1,
+    "note": "",
+    "id": "1ee8bdc3-38e5-4228-b07a-ce77f96cffad"
+  },
+  {
+    "type": "food",
+    "value": null,
+    "unit": null,
+    "measured_at": "2026-05-13T20:00",
+    "level": 1,
+    "note": "FUTTER",
+    "id": "6f42a484-50e4-4f2a-82aa-1d2f3cfc5e35"
+  },
+  {
+    "type": "insulin",
+    "value": null,
+    "unit": 2,
+    "measured_at": "2026-05-13T21:00",
+    "level": 1,
+    "note": "",
+    "id": "00fa31b6-a990-4993-bbf1-6f90c82e131f"
+  },
+  {
+    "type": "glucose",
+    "value": 557,
+    "unit": null,
+    "measured_at": "2026-05-14T07:43",
+    "level": -1,
+    "note": "",
+    "id": "dcd94091-2723-4c1b-b97c-d5b27e02cadf"
+  },
+  {
+    "type": "food",
+    "value": null,
+    "unit": null,
+    "measured_at": "2026-05-14T07:50",
+    "level": 1,
+    "note": "FUTTER",
+    "id": "23042882-7573-4746-843a-c81bac6826e9"
+  },
+  {
+    "type": "insulin",
+    "value": null,
+    "unit": 2,
+    "measured_at": "2026-05-14T08:46",
+    "level": 1,
+    "note": "",
+    "id": "8234fb52-0af7-43bf-8d7e-0970941b1546"
+  },
+  {
+    "type": "glucose",
+    "value": 552,
+    "unit": null,
+    "measured_at": "2026-05-14T11:00",
+    "level": -1,
+    "note": "",
+    "id": "a719238a-85dd-472e-beed-2ae71d9143c3"
+  },
+  {
+    "type": "glucose",
+    "value": 337,
+    "unit": null,
+    "measured_at": "2026-05-14T14:34",
+    "level": 2,
+    "note": "",
+    "id": "24de949f-3012-44e9-b684-627f84497d33"
+  },
+  {
+    "type": "food",
+    "value": null,
+    "unit": null,
+    "measured_at": "2026-05-14T14:34",
+    "level": 1,
+    "note": "1/2 SACKERL",
+    "id": "0b852b57-80a5-4d69-aa46-586e23358fff"
+  },
+  {
+    "type": "food",
+    "value": null,
+    "unit": null,
+    "measured_at": "2026-05-14T16:49",
+    "level": 1,
+    "note": "1/2 SACKERL",
+    "id": "3ace58da-426c-4d44-a382-e6b1a6466ed8"
+  },
+  {
+    "type": "glucose",
+    "value": 417,
+    "unit": null,
+    "measured_at": "2026-05-14T18:59",
+    "level": -1,
+    "note": "",
+    "id": "cf35cc8e-d7e2-4894-b4c9-c11624a37770"
+  },
+  {
+    "type": "glucose",
+    "value": 474,
+    "unit": null,
+    "measured_at": "2026-05-14T19:45",
+    "level": -1,
+    "note": "",
+    "id": "be398853-41e0-4078-bc08-1c055444c971"
+  },
+  {
+    "type": "food",
+    "value": null,
+    "unit": null,
+    "measured_at": "2026-05-14T19:45",
+    "level": 1,
+    "note": "FUTTER",
+    "id": "d337ea99-676a-48c8-a500-154c6c69822c"
+  },
+  {
+    "type": "insulin",
+    "value": null,
+    "unit": 2,
+    "measured_at": "2026-05-14T20:47",
+    "level": 1,
+    "note": "",
+    "id": "ae0e899a-5d80-4112-b3d0-a7ec34b00e86"
+  },
+  {
+    "type": "glucose",
+    "value": 545,
+    "unit": null,
+    "measured_at": "2026-05-15T07:22",
+    "level": -1,
+    "note": "",
+    "id": "4a2a3545-0e2e-4678-b362-f385c4a3c2f5"
+  },
+  {
+    "type": "food",
+    "value": null,
+    "unit": null,
+    "measured_at": "2026-05-15T07:29",
+    "level": 1,
+    "note": "FUTTER",
+    "id": "56a42507-35df-4010-8a0e-6787270af9c8"
+  },
+  {
+    "type": "insulin",
+    "value": null,
+    "unit": 2,
+    "measured_at": "2026-05-15T08:48",
+    "level": 1,
+    "note": "",
+    "id": "c7746726-9973-4d2e-9cbe-149e14aa6323"
+  },
+  {
+    "type": "glucose",
+    "value": 361,
+    "unit": null,
+    "measured_at": "2026-05-15T11:36",
+    "level": 2,
+    "note": "",
+    "id": "0976cd41-a4ca-40db-8d71-9c5740f1b9c7"
+  },
+  {
+    "type": "glucose",
+    "value": 274,
+    "unit": null,
+    "measured_at": "2026-05-15T15:57",
+    "level": 2,
+    "note": "",
+    "id": "ada95f54-3967-470e-b964-e9d39d04c3e2"
+  },
+  {
+    "type": "food",
+    "value": null,
+    "unit": null,
+    "measured_at": "2026-05-15T15:58",
+    "level": 1,
+    "note": "1/2 SACKERL",
+    "id": "1313fba2-3477-46ee-9e90-05ddaf143751"
+  },
+  {
+    "type": "glucose",
+    "value": 365,
+    "unit": null,
+    "measured_at": "2026-05-15T19:30",
+    "level": 2,
+    "note": "",
+    "id": "fb38aef4-6cc1-45f1-ac53-1c44a05aacd8"
+  },
+  {
+    "type": "insulin",
+    "value": null,
+    "unit": 2,
+    "measured_at": "2026-05-15T20:32",
+    "level": 1,
+    "note": "",
+    "id": "4ccb53a3-6e28-42c9-893a-a579d355e27b"
+  },
+  {
+    "type": "glucose",
+    "value": 402,
+    "unit": null,
+    "measured_at": "2026-05-16T07:20",
+    "level": -1,
+    "note": "",
+    "id": "94ea0e1f-dba3-4f77-b8cc-206fffc329c6"
+  },
+  {
+    "type": "food",
+    "value": null,
+    "unit": null,
+    "measured_at": "2026-05-16T07:30",
+    "level": 1,
+    "note": "FUTTER",
+    "id": "23d2d988-3b0d-49a7-a0d4-1dd046dffd41"
+  },
+  {
+    "type": "insulin",
+    "value": null,
+    "unit": 2,
+    "measured_at": "2026-05-16T08:33",
+    "level": 1,
+    "note": "",
+    "id": "f3088586-9459-4cf2-b2f7-7fae4636964f"
+  },
+  {
+    "type": "glucose",
+    "value": 423,
+    "unit": null,
+    "measured_at": "2026-05-16T11:17",
+    "level": -1,
+    "note": "",
+    "id": "370d1a83-9a7e-413d-8fd8-1660d00142ee"
+  },
+  {
+    "type": "glucose",
+    "value": 387,
+    "unit": null,
+    "measured_at": "2026-05-16T16:54",
+    "level": 2,
+    "note": "",
+    "id": "b7c337fc-4aec-4d65-a16e-73a7c0d888a4"
+  },
+  {
+    "type": "food",
+    "value": null,
+    "unit": null,
+    "measured_at": "2026-05-16T16:55",
+    "level": 1,
+    "note": "FUTTER 1/2",
+    "id": "8a17226b-3393-4eaa-b0cc-a27a5ff9f7fb"
+  },
+  {
+    "type": "glucose",
+    "value": 424,
+    "unit": null,
+    "measured_at": "2026-05-16T19:18",
+    "level": -1,
+    "note": "",
+    "id": "8023cdd8-47a0-454e-8c64-d446e4be717e"
+  },
+  {
+    "type": "insulin",
+    "value": null,
+    "unit": 2,
+    "measured_at": "2026-05-16T20:32",
+    "level": 1,
+    "note": "",
+    "id": "f1cefe46-fcc0-453c-a405-92ca8b787c59"
+  },
+  {
+    "type": "glucose",
+    "value": 385,
+    "unit": null,
+    "measured_at": "2026-05-17T07:17",
+    "level": 2,
+    "note": "",
+    "id": "ff30c84c-58a8-4279-88be-1c79057955f5"
+  },
+  {
+    "type": "insulin",
+    "value": null,
+    "unit": 2,
+    "measured_at": "2026-05-17T08:15",
+    "level": 1,
+    "note": "",
+    "id": "13379924-44c2-4445-8379-7da6c2c6dce9"
+  },
+  {
+    "type": "food",
+    "value": null,
+    "unit": null,
+    "measured_at": "2026-05-17T07:17",
+    "level": 1,
+    "note": "FUTTER 1",
+    "id": "88fada20-3342-4f07-bdee-835c22b052fb"
+  },
+  {
+    "type": "glucose",
+    "value": 387,
+    "unit": null,
+    "measured_at": "2026-05-17T13:20",
+    "level": 2,
+    "note": "",
+    "id": "bda8cb0a-18b8-4c9c-a90c-bec1212b71ba"
+  },
+  {
+    "type": "food",
+    "value": null,
+    "unit": null,
+    "measured_at": "2026-05-17T13:20",
+    "level": 1,
+    "note": "1/2 FUTTER",
+    "id": "f7c5040e-9e46-4496-8ecb-fa98e95d8422"
+  },
+  {
+    "type": "glucose",
+    "value": 371,
+    "unit": null,
+    "measured_at": "2026-05-17T16:30",
+    "level": 2,
+    "note": "",
+    "id": "7b07d782-5010-4666-8b91-01c9f9998d5f"
+  },
+  {
+    "type": "glucose",
+    "value": 452,
+    "unit": null,
+    "measured_at": "2026-05-17T19:28",
+    "level": -1,
+    "note": "",
+    "id": "6b80c4b9-92c7-4e25-b872-15934a571084"
+  },
+  {
+    "type": "food",
+    "value": null,
+    "unit": null,
+    "measured_at": "2026-05-17T19:30",
+    "level": 1,
+    "note": "1 FUTTER",
+    "id": "f925cf66-eba6-4b00-912a-b6ca3b010229"
+  },
+  {
+    "type": "insulin",
+    "value": null,
+    "unit": 2,
+    "measured_at": "2026-05-17T20:25",
+    "level": 1,
+    "note": "",
+    "id": "9ace852b-9ab9-485a-a15f-ef9cb6cc38cd"
+  },
+  {
+    "type": "glucose",
+    "value": 290,
+    "unit": null,
+    "measured_at": "2026-05-18T07:33",
+    "level": 2,
+    "note": "",
+    "id": "8f77f022-b087-4563-a59a-24daee6608d9"
+  },
+  {
+    "type": "food",
+    "value": null,
+    "unit": null,
+    "measured_at": "2026-05-18T07:33",
+    "level": 1,
+    "note": "1 FUTTER",
+    "id": "a2e37eb9-e040-4e0e-9e18-495a8a908563"
+  },
+  {
+    "type": "insulin",
+    "value": null,
+    "unit": 2,
+    "measured_at": "2026-05-18T08:43",
+    "level": 1,
+    "note": "",
+    "id": "f73b8b52-d5f6-49a5-8e4c-a061d8d9cf1c"
+  },
+  {
+    "type": "glucose",
+    "value": 412,
+    "unit": null,
+    "measured_at": "2026-05-18T12:10",
+    "level": -1,
+    "note": "",
+    "id": "33fcc925-97d7-4ada-bd41-b1d610187864"
+  },
+  {
+    "type": "glucose",
+    "value": 284,
+    "unit": null,
+    "measured_at": "2026-05-18T15:05",
+    "level": 2,
+    "note": "",
+    "id": "f8ba082b-4fee-42a5-abb4-97b7d5eeaf12"
+  },
+  {
+    "type": "glucose",
+    "value": 497,
+    "unit": null,
+    "measured_at": "2026-05-18T19:17",
+    "level": -1,
+    "note": "",
+    "id": "14d284de-54a8-40ef-a3be-5b4f120fbbb2"
+  },
+  {
+    "type": "food",
+    "value": null,
+    "unit": null,
+    "measured_at": "2026-05-18T19:20",
+    "level": 1,
+    "note": "1 FUTTER",
+    "id": "d5138782-e562-4333-b466-f01e868b5d3d"
+  },
+  {
+    "type": "insulin",
+    "value": null,
+    "unit": 2,
+    "measured_at": "2026-05-18T20:22",
+    "level": 1,
+    "note": "",
+    "id": "af76a8a6-2bd1-485c-a800-9d41e713ef23"
+  },
+  {
+    "type": "glucose",
+    "value": 373,
+    "unit": null,
+    "measured_at": "2026-05-19T04:31",
+    "level": 2,
+    "note": "",
+    "id": "f751ec42-b51c-45d6-aa26-d3e2c3a90f12"
+  },
+  {
+    "type": "food",
+    "value": null,
+    "unit": null,
+    "measured_at": "2026-05-19T07:32",
+    "level": 1,
+    "note": "1 FUTTER",
+    "id": "bb0f1a56-0049-4729-b7f9-99c35385db94"
+  },
+  {
+    "type": "glucose",
+    "value": 382,
+    "unit": null,
+    "measured_at": "2026-05-19T12:35",
+    "level": 2,
+    "note": "",
+    "id": "eb3c94ff-138f-4f89-a148-84b71e5f8a5d"
+  },
+  {
+    "type": "food",
+    "value": null,
+    "unit": null,
+    "measured_at": "2026-05-19T12:35",
+    "level": 1,
+    "note": "1 FUTTER",
+    "id": "bf6a94be-5b33-414e-8a02-edd6524550b9"
+  },
+  {
+    "type": "glucose",
+    "value": 280,
+    "unit": null,
+    "measured_at": "2026-05-19T16:20",
+    "level": 2,
+    "note": "",
+    "id": "fc049672-97fd-4221-9584-a21961d04788"
+  },
+  {
+    "type": "glucose",
+    "value": 348,
+    "unit": null,
+    "measured_at": "2026-05-19T19:17",
+    "level": 2,
+    "note": "",
+    "id": "e2d4fa07-3cec-4410-b06f-463f5615fe60"
+  },
+  {
+    "type": "food",
+    "value": null,
+    "unit": null,
+    "measured_at": "2026-05-19T19:20",
+    "level": 1,
+    "note": "1 FUTTER",
+    "id": "27904302-34d8-4a72-8e50-7cdab6d121c5"
+  },
+  {
+    "type": "insulin",
+    "value": null,
+    "unit": 2,
+    "measured_at": "2026-05-19T20:27",
+    "level": 1,
+    "note": "",
+    "id": "93f5fc75-4744-4fc8-b66f-263a41b3eb83"
+  },
+  {
+    "type": "glucose",
+    "value": 562,
+    "unit": null,
+    "measured_at": "2026-05-20T07:23",
+    "level": -1,
+    "note": "Insulin: 2 units",
+    "id": "b72ff2b4-1e1a-4f3a-8c37-9bd0d1ea5f61"
+  },
+  {
+    "type": "food",
+    "value": null,
+    "unit": null,
+    "measured_at": "2026-05-20T07:23",
+    "level": 1,
+    "note": "1 FUTTER",
+    "id": "d9e0a558-bbdf-48f6-89f7-658e9bec89d1"
+  },
+  {
+    "type": "glucose",
+    "value": 477,
+    "unit": null,
+    "measured_at": "2026-05-20T08:21",
+    "level": -1,
+    "note": "Insulin: 2 units",
+    "id": "14f61a95-1b68-4cdc-82a2-93f06d40dca9"
+  },
+  {
+    "type": "food",
+    "value": null,
+    "unit": null,
+    "measured_at": "2026-05-20T12:30",
+    "level": 1,
+    "note": "1/2 FUTTER",
+    "id": "419e42d9-000e-47a8-96d1-97d5f9f715d2"
+  },
+  {
+    "type": "glucose",
+    "value": 405,
+    "unit": null,
+    "measured_at": "2026-05-21T16:20",
+    "level": -1,
+    "note": "",
+    "id": "a4e430b2-8186-4dea-b1e0-fcf5ee2cb9d2"
+  },
+  {
+    "type": "food",
+    "value": null,
+    "unit": null,
+    "measured_at": "2026-05-21T18:30",
+    "level": 1,
+    "note": "1 FUTTER",
+    "id": "c02aaae8-b09a-4322-8fa5-6db0541c89b8"
+  },
+  {
+    "type": "insulin",
+    "value": null,
+    "unit": 2,
+    "measured_at": "2026-05-21T19:00",
+    "level": 1,
+    "note": "",
+    "id": "6c097074-f5d1-4c4d-9066-58a649b4ae0c"
+  },
+  {
+    "type": "glucose",
+    "value": 474,
+    "unit": null,
+    "measured_at": "2026-05-21T07:02",
+    "level": -1,
+    "note": "",
+    "id": "875961ea-430a-42ee-8f77-3f721c509833"
+  },
+  {
+    "type": "food",
+    "value": null,
+    "unit": null,
+    "measured_at": "2026-05-21T07:03",
+    "level": 1,
+    "note": "1 FUTTER",
+    "id": "ccb1f8f8-b834-4f89-8446-73f0c8527a3b"
+  },
+  {
+    "type": "insulin",
+    "value": null,
+    "unit": 2,
+    "measured_at": "2026-05-21T08:08",
+    "level": 1,
+    "note": "",
+    "id": "f33927cf-02cc-425b-89be-ecea20803271"
+  },
+  {
+    "type": "glucose",
+    "value": 301,
+    "unit": null,
+    "measured_at": "2026-05-21T12:42",
+    "level": 2,
+    "note": "",
+    "id": "739b8766-97d6-45f4-acbd-295034b86a22"
+  },
+  {
+    "type": "food",
+    "value": null,
+    "unit": null,
+    "measured_at": "2026-05-21T10:43",
+    "level": 1,
+    "note": "1 FUTTER",
+    "id": "ec305a68-61e6-42be-a80e-ec1018411f96"
+  },
+  {
+    "type": "glucose",
+    "value": 324,
+    "unit": null,
+    "measured_at": "2026-05-21T16:15",
+    "level": 2,
+    "note": "",
+    "id": "c7cea529-a93a-4a63-a7c9-fa4e8e759d35"
+  },
+  {
+    "type": "glucose",
+    "value": 437,
+    "unit": null,
+    "measured_at": "2026-05-21T19:12",
+    "level": -1,
+    "note": "",
+    "id": "c0e378fb-7ca2-437e-a9bc-4b645c51d8f7"
+  },
+  {
+    "type": "food",
+    "value": null,
+    "unit": null,
+    "measured_at": "2026-05-21T19:13",
+    "level": 1,
+    "note": "1 FUTTER",
+    "id": "c1b3187f-a94b-4b50-bbb4-b449b30e9d80"
+  },
+  {
+    "type": "insulin",
+    "value": null,
+    "unit": 2,
+    "measured_at": "2026-05-21T20:05",
+    "level": 1,
+    "note": "",
+    "id": "026bcc51-f190-41c2-aa11-7566235a498d"
+  },
+  {
+    "type": "insulin",
+    "value": null,
+    "unit": 2,
+    "measured_at": "2026-05-22T08:04",
+    "level": 1,
+    "note": "",
+    "id": "5cc3b804-c5ab-4d3f-b60a-f45af0189c9c"
+  },
+  {
+    "type": "food",
+    "value": null,
+    "unit": null,
+    "measured_at": "2026-05-22T06:57",
+    "level": 1,
+    "note": "1 FUTTER",
+    "id": "89edddf9-8a86-4985-8d6d-cf7b07e5181a"
+  },
+  {
+    "type": "glucose",
+    "value": 305,
+    "unit": null,
+    "measured_at": "2026-05-22T12:27",
+    "level": 2,
+    "note": "",
+    "id": "1b3201a4-44fe-4ba4-94be-b260aa349862"
+  },
+  {
+    "type": "food",
+    "value": null,
+    "unit": null,
+    "measured_at": "2026-05-22T12:30",
+    "level": 1,
+    "note": "1 FUTTER",
+    "id": "1f60d3d4-8876-425c-939d-c05efaf466fc"
+  },
+  {
+    "type": "food",
+    "value": null,
+    "unit": null,
+    "measured_at": "2026-05-22T16:00",
+    "level": 1,
+    "note": "1/2 FUTTER",
+    "id": "069359be-ccb6-4718-a27e-35d90e6c94c4"
+  },
+  {
+    "type": "glucose",
+    "value": 314,
+    "unit": null,
+    "measured_at": "2026-05-22T16:30",
+    "level": 2,
+    "note": "",
+    "id": "ce48c25b-2c15-4879-b976-a3c6d6b7fa34"
+  },
+  {
+    "type": "glucose",
+    "value": 370,
+    "unit": null,
+    "measured_at": "2026-05-22T17:53",
+    "level": 2,
+    "note": "",
+    "id": "0163a762-56a1-485d-848b-72524481260b"
+  },
+  {
+    "type": "glucose",
+    "value": 373,
+    "unit": null,
+    "measured_at": "2026-05-22T18:50",
+    "level": 2,
+    "note": "",
+    "id": "6b017f0d-d04f-4506-b323-fc52a803cba2"
+  },
+  {
+    "type": "insulin",
+    "value": null,
+    "unit": 2,
+    "measured_at": "2026-05-22T19:15",
+    "level": 1,
+    "note": "",
+    "id": "2c5a9195-4390-44a1-a317-a35e045f63f6"
+  },
+  {
+    "type": "glucose",
+    "value": 520,
+    "unit": null,
+    "measured_at": "2026-05-23T07:06",
+    "level": -1,
+    "note": "",
+    "id": "f480dcd2-8624-40da-87f3-4b976c194bb0"
+  },
+  {
+    "type": "insulin",
+    "value": null,
+    "unit": 2,
+    "measured_at": "2026-05-23T07:20",
+    "level": 1,
+    "note": "",
+    "id": "6393fc94-8133-4fc7-952b-6e32a7b7bbe5"
+  },
+  {
+    "type": "glucose",
+    "value": 520,
+    "unit": null,
+    "measured_at": "2026-05-23T11:44",
+    "level": -1,
+    "note": "",
+    "id": "afd8fa93-876f-41be-866c-da4b192f2154"
+  },
+  {
+    "type": "glucose",
+    "value": 467,
+    "unit": null,
+    "measured_at": "2026-05-23T15:04",
+    "level": -1,
+    "note": "",
+    "id": "fc942e35-c360-4b5d-a45a-439f7cc3397c"
+  },
+  {
+    "type": "glucose",
+    "value": 463,
+    "unit": null,
+    "measured_at": "2026-05-23T18:42",
+    "level": -1,
+    "note": "",
+    "id": "b1cfde49-3731-4e36-a78b-b1cc51864819"
+  },
+  {
+    "type": "food",
+    "value": null,
+    "unit": null,
+    "measured_at": "2026-05-23T18:45",
+    "level": 1,
+    "note": "1 Sackerl",
+    "id": "cdc5d209-bcba-4bf1-bcaf-16f38aaa70e4"
+  },
+  {
+    "type": "insulin",
+    "value": null,
+    "unit": 2,
+    "measured_at": "2026-05-23T19:08",
+    "level": 1,
+    "note": "",
+    "id": "dede5a2b-5978-4414-b369-10652f24a357"
+  },
+  {
+    "type": "glucose",
+    "value": 237,
+    "unit": null,
+    "measured_at": "2026-05-23T06:52",
+    "level": 2,
+    "note": "",
+    "id": "5bc1c0b7-3d12-471c-a3ad-a093357d108f"
+  },
+  {
+    "type": "insulin",
+    "value": null,
+    "unit": 2,
+    "measured_at": "2026-05-23T07:24",
+    "level": 1,
+    "note": "",
+    "id": "3f87b5c4-3d41-45d2-88bf-1fe00657b3e7"
+  },
+  {
+    "type": "food",
+    "value": null,
+    "unit": null,
+    "measured_at": "2026-05-23T11:00",
+    "level": 1,
+    "note": "1/2 FUTTER",
+    "id": "b8e184f6-9f9f-47b9-8acf-5db6f69b180b"
+  },
+  {
+    "type": "food",
+    "value": null,
+    "unit": null,
+    "measured_at": "2026-05-23T13:00",
+    "level": 1,
+    "note": "1/2 BRKIES",
+    "id": "2f8ce056-b167-49cf-8ccd-65c543d494a0"
+  },
+  {
+    "type": "glucose",
+    "value": 476,
+    "unit": null,
+    "measured_at": "2026-05-23T15:00",
+    "level": -1,
+    "note": "",
+    "id": "ff9206a5-6b3d-46c3-86e1-89e298d79763"
+  },
+  {
+    "type": "glucose",
+    "value": 529,
+    "unit": null,
+    "measured_at": "2026-05-23T16:28",
+    "level": -1,
+    "note": "",
+    "id": "472e1034-ea2d-4904-bf67-f8d344bfd417"
+  },
+  {
+    "type": "food",
+    "value": null,
+    "unit": null,
+    "measured_at": "2026-05-23T19:12",
+    "level": 1,
+    "note": "1 ESSEN",
+    "id": "1ff1b371-020a-49ca-b0bb-0e6a9d24b400"
+  },
+  {
+    "type": "insulin",
+    "value": null,
+    "unit": 2,
+    "measured_at": "2026-05-23T19:20",
+    "level": 1,
+    "note": "",
+    "id": "6fc7aece-c594-4d1a-90b6-c1f7ae964ba7"
+  },
+  {
+    "type": "glucose",
+    "value": 416,
+    "unit": null,
+    "measured_at": "2026-05-25T07:15",
+    "level": -1,
+    "note": "",
+    "id": "8996b666-fe68-49dd-bef1-77f6334df802"
+  },
+  {
+    "type": "insulin",
+    "value": null,
+    "unit": 2,
+    "measured_at": "2026-05-25T07:20",
+    "level": 1,
+    "note": "",
+    "id": "f7c7f31b-40a1-4352-924b-35634f815f3c"
+  },
+  {
+    "type": "food",
+    "value": null,
+    "unit": null,
+    "measured_at": "2026-05-25T07:10",
+    "level": 1,
+    "note": "1 FUTTER",
+    "id": "75cfc512-c434-4a97-ae7b-77582c53ee56"
+  },
+  {
+    "type": "food",
+    "value": null,
+    "unit": null,
+    "measured_at": "2026-05-25T11:00",
+    "level": 1,
+    "note": "1/2 NASS",
+    "id": "ab35fcc2-89de-4f37-853c-97b848b98e96"
+  },
+  {
+    "type": "food",
+    "value": null,
+    "unit": null,
+    "measured_at": "2026-05-25T13:00",
+    "level": 1,
+    "note": "10 Kroketen",
+    "id": "54b20401-a223-4b76-b3d1-c27028ef467f"
+  },
+  {
+    "type": "food",
+    "value": null,
+    "unit": null,
+    "measured_at": "2026-05-25T16:00",
+    "level": 1,
+    "note": "1/2 NASS",
+    "id": "d41e2387-1537-4300-9657-b0fe1f9f9988"
+  },
+  {
+    "type": "glucose",
+    "value": 505,
+    "unit": null,
+    "measured_at": "2026-05-25T18:36",
+    "level": -1,
+    "note": "",
+    "id": "efdcd52b-7e88-4abf-a1c4-cba67cebefca"
+  },
+  {
+    "type": "food",
+    "value": null,
+    "unit": null,
+    "measured_at": "2026-05-25T19:00",
+    "level": 1,
+    "note": "1 FUTTER",
+    "id": "be0566a6-e310-4b1d-829e-dfe3f69140ed"
+  },
+  {
+    "type": "glucose",
+    "value": 436,
+    "unit": null,
+    "measured_at": "2026-05-26T07:00",
+    "level": -1,
+    "note": "",
+    "id": "d6546c42-ede8-4887-8238-3542dc97555e"
+  },
+  {
+    "type": "insulin",
+    "value": null,
+    "unit": 2,
+    "measured_at": "2026-05-26T07:20",
+    "level": 1,
+    "note": "",
+    "id": "e977d88f-27fb-46a5-99be-6acc886d08a9"
+  },
+  {
+    "type": "glucose",
+    "value": 385,
+    "unit": null,
+    "measured_at": "2026-05-26T18:21",
+    "level": 2,
+    "note": "",
+    "id": "98fb1f02-edfa-4c7d-bc12-35017f8897e5"
+  },
+  {
+    "type": "food",
+    "value": null,
+    "unit": null,
+    "measured_at": "2026-05-26T11:30",
+    "level": 1,
+    "note": "1/2 FUTTER",
+    "id": "e2b4ab80-9759-4ec1-af44-37d9594b31c4"
+  },
+  {
+    "type": "food",
+    "value": null,
+    "unit": null,
+    "measured_at": "2026-05-26T13:00",
+    "level": 1,
+    "note": "1/2 FUTTER",
+    "id": "82e5906f-6733-4e43-919c-d3b1ada69b64"
+  },
+  {
+    "type": "food",
+    "value": null,
+    "unit": null,
+    "measured_at": "2026-05-26T17:00",
+    "level": 1,
+    "note": "1/2 FUTTER",
+    "id": "89c56c2e-23b1-4a37-ab87-23884bb86d67"
+  },
+  {
+    "type": "food",
+    "value": null,
+    "unit": null,
+    "measured_at": "2026-05-26T19:10",
+    "level": 1,
+    "note": "1 FUTTER",
+    "id": "81ad7d43-2b49-479d-878e-6bfb04c13b1b"
+  },
+  {
+    "type": "insulin",
+    "value": null,
+    "unit": 2,
+    "measured_at": "2026-05-26T19:20",
+    "level": 1,
+    "note": "",
+    "id": "6bad5d24-669a-4e72-9970-f604b001216c"
+  },
+  {
+    "type": "glucose",
+    "value": 260,
+    "unit": null,
+    "measured_at": "2026-05-27T07:10",
+    "level": 2,
+    "note": "",
+    "id": "6131ec1a-2c89-4965-a29e-9b0c96b85815"
+  },
+  {
+    "type": "food",
+    "value": null,
+    "unit": null,
+    "measured_at": "2026-05-27T07:10",
+    "level": 1,
+    "note": "1 NASS",
+    "id": "344f41ed-d085-4132-9048-410f72886a97"
+  },
+  {
+    "type": "insulin",
+    "value": null,
+    "unit": 2,
+    "measured_at": "2026-05-27T07:25",
+    "level": 1,
+    "note": "",
+    "id": "f6b16668-3c8d-4309-8846-588d1720cc19"
+  },
+  {
+    "type": "food",
+    "value": null,
+    "unit": null,
+    "measured_at": "2026-05-27T11:00",
+    "level": 1,
+    "note": "1/2 NASS",
+    "id": "fe48f1fc-6604-44b4-bcaf-80b25026cd6f"
+  },
+  {
+    "type": "food",
+    "value": null,
+    "unit": null,
+    "measured_at": "2026-05-27T13:00",
+    "level": 1,
+    "note": "1/2 NASS",
+    "id": "03f44e76-de52-4c25-b5fc-ed585627747a"
+  },
+  {
+    "type": "food",
+    "value": null,
+    "unit": null,
+    "measured_at": "2026-05-27T17:30",
+    "level": 1,
+    "note": "1/2 NASS",
+    "id": "fd6d06a1-497c-43b2-966a-1c3278e0f394"
+  },
+  {
+    "type": "glucose",
+    "value": 404,
+    "unit": null,
+    "measured_at": "2026-05-27T18:55",
+    "level": -1,
+    "note": "",
+    "id": "a6ee631e-d360-414d-981c-f59454c60eca"
+  },
+  {
+    "type": "food",
+    "value": null,
+    "unit": null,
+    "measured_at": "2026-05-27T18:57",
+    "level": 1,
+    "note": "1 NASS",
+    "id": "98987a37-54e9-4680-b5e7-a6fc6d4e3449"
+  },
+  {
+    "type": "insulin",
+    "value": null,
+    "unit": 2,
+    "measured_at": "2026-05-27T19:20",
+    "level": 1,
+    "note": "",
+    "id": "ef0d8e79-8fb0-406e-9691-b0fc49857823"
+  },
+  {
+    "type": "glucose",
+    "value": 372,
+    "unit": null,
+    "measured_at": "2026-05-28T07:05",
+    "level": 2,
+    "note": "",
+    "id": "12f72931-b862-4ffd-8a0b-0098622130a0"
+  },
+  {
+    "type": "food",
+    "value": null,
+    "unit": null,
+    "measured_at": "2026-05-28T07:05",
+    "level": 1,
+    "note": "1 NASS",
+    "id": "eae94e99-de89-403b-88a7-375dbd559e68"
+  },
+  {
+    "type": "food",
+    "value": null,
+    "unit": null,
+    "measured_at": "2026-05-28T11:00",
+    "level": 1,
+    "note": "1/2 NASS",
+    "id": "e859014f-b947-4afb-ab0d-50ed0abacdc8"
+  },
+  {
+    "type": "food",
+    "value": null,
+    "unit": null,
+    "measured_at": "2026-05-28T13:00",
+    "level": 1,
+    "note": "1/2 NASS",
+    "id": "942692dd-dea9-46cc-b63a-1ab4f2773298"
+  },
+  {
+    "type": "food",
+    "value": null,
+    "unit": null,
+    "measured_at": "2026-05-28T17:30",
+    "level": 1,
+    "note": "1/2 NASS",
+    "id": "fc66d216-ac21-4c03-8fda-ec15ed4bee71"
+  },
+  {
+    "type": "glucose",
+    "value": 426,
+    "unit": null,
+    "measured_at": "2026-05-28T17:58",
+    "level": -1,
+    "note": "",
+    "id": "db8399e3-776d-4798-b84a-98b607720ecb"
+  },
+  {
+    "type": "food",
+    "value": null,
+    "unit": null,
+    "measured_at": "2026-05-28T18:00",
+    "level": 1,
+    "note": "1 NASS",
+    "id": "0a982ae6-3f64-44c0-bac8-f0b4ce7fc1c1"
+  }
+]

@@ -1,0 +1,961 @@
+[
+  {
+    "date": "11.05.26",
+    "time": "11:45",
+    "unit": "UNDEFINED",
+    "value": "442",
+    "type": "measurement"
+  },
+  {
+    "date": "11.05.26",
+    "time": "15:30",
+    "unit": "UNDEFINED",
+    "value": "304",
+    "type": "measurement"
+  },
+  {
+    "date": "11.05.26",
+    "time": "17:30",
+    "unit": "UNDEFINED",
+    "value": "176",
+    "type": "measurement"
+  },
+  {
+    "date": "11.05.26",
+    "time": "21:30",
+    "unit": "UNDEFINED",
+    "value": "107",
+    "type": "measurement"
+  },
+  {
+    "date": "12.05.26",
+    "time": "08:00",
+    "unit": "UNDEFINED",
+    "value": "378",
+    "type": "measurement"
+  },
+  {
+    "date": "12.05.26",
+    "time": "12:00",
+    "unit": "UNDEFINED",
+    "value": "372",
+    "type": "measurement"
+  },
+  {
+    "date": "12.05.26",
+    "time": "16:30",
+    "unit": "UNDEFINED",
+    "value": "357",
+    "type": "measurement"
+  },
+  {
+    "date": "13.05.26",
+    "time": "08:22",
+    "unit": "2",
+    "value": "554",
+    "type": "measurement"
+  },
+  {
+    "date": "13.05.26",
+    "time": "11:23",
+    "unit": "UNDEFINED",
+    "value": "508",
+    "type": "measurement"
+  },
+  {
+    "date": "13.05.26",
+    "time": "17:00",
+    "unit": "UNDEFINED",
+    "value": "577",
+    "type": "measurement"
+  },
+  {
+    "date": "13.05.26",
+    "time": "19:56",
+    "unit": "UNDEFINED",
+    "value": "568",
+    "type": "measurement"
+  },
+  {
+    "date": "13.05.26",
+    "time": "20:00",
+    "unit": "UNDEFINED",
+    "value": "FUTTER",
+    "type": "food"
+  },
+  {
+    "date": "13.05.26",
+    "time": "21:00",
+    "unit": "2",
+    "value": "INSULIN",
+    "type": "insulin"
+  },
+  {
+    "date": "14.05.26",
+    "time": "07:43",
+    "unit": "UNDEFINED",
+    "value": "557",
+    "type": "measurement"
+  },
+  {
+    "date": "14.05.26",
+    "time": "07:50",
+    "unit": "UNDEFINED",
+    "value": "FUTTER",
+    "type": "food"
+  },
+  {
+    "date": "14.05.26",
+    "time": "08:46",
+    "unit": "2",
+    "value": "INSULIN",
+    "type": "insulin"
+  },
+  {
+    "date": "14.05.26",
+    "time": "11:00",
+    "unit": "UNDEFINED",
+    "value": "552",
+    "type": "measurement"
+  },
+  {
+    "date": "14.05.26",
+    "time": "14:34",
+    "unit": "UNDEFINED",
+    "value": "337",
+    "type": "measurement"
+  },
+  {
+    "date": "14.05.26",
+    "time": "14:34",
+    "unit": "UNDEFINED",
+    "value": "1/2 SACKERL",
+    "type": "food"
+  },
+  {
+    "date": "14.05.26",
+    "time": "16:49",
+    "unit": "UNDEFINED",
+    "value": "1/2 SACKERL",
+    "type": "food"
+  },
+  {
+    "date": "14.05.26",
+    "time": "18:59",
+    "unit": "UNDEFINED",
+    "value": "417",
+    "type": "measurement"
+  },
+  {
+    "date": "14.05.26",
+    "time": "19:45",
+    "unit": "UNDEFINED",
+    "value": "474",
+    "type": "measurement"
+  },
+  {
+    "date": "14.05.26",
+    "time": "19:45",
+    "unit": "UNDEFINED",
+    "value": "FUTTER",
+    "type": "food"
+  },
+  {
+    "date": "14.05.26",
+    "time": "20:47",
+    "unit": "2",
+    "value": "INSULIN",
+    "type": "insulin"
+  },
+  {
+    "date": "15.05.26",
+    "time": "07:22",
+    "unit": "UNDEFINED",
+    "value": "545",
+    "type": "measurement"
+  },
+  {
+    "date": "15.05.26",
+    "time": "07:29",
+    "unit": "UNDEFINED",
+    "value": "FUTTER",
+    "type": "food"
+  },
+  {
+    "date": "15.05.26",
+    "time": "08:48",
+    "unit": "2",
+    "value": "INSULIN",
+    "type": "insulin"
+  },
+  {
+    "date": "15.05.26",
+    "time": "11:36",
+    "unit": "UNDEFINED",
+    "value": "361",
+    "type": "measurement"
+  },
+  {
+    "date": "15.05.26",
+    "time": "15:57",
+    "unit": "UNDEFINED",
+    "value": "274",
+    "type": "measurement"
+  },
+  {
+    "date": "15.05.26",
+    "time": "15:58",
+    "unit": "UNDEFINED",
+    "value": "1/2 SACKERL",
+    "type": "food"
+  },
+  {
+    "date": "15.05.26",
+    "time": "19:30",
+    "unit": "UNDEFINED",
+    "value": "365",
+    "type": "measurement"
+  },
+  {
+    "date": "15.05.26",
+    "time": "20:32",
+    "unit": "2",
+    "value": "INSULIN",
+    "type": "insulin"
+  },
+  {
+    "date": "16.05.26",
+    "time": "07:20",
+    "unit": "UNDEFINED",
+    "value": "402",
+    "type": "measurement"
+  },
+  {
+    "date": "16.05.26",
+    "time": "07:30",
+    "unit": "UNDEFINED",
+    "value": "FUTTER",
+    "type": "food"
+  },
+  {
+    "date": "16.05.26",
+    "time": "08:33",
+    "unit": "2",
+    "value": "INSULIN",
+    "type": "insulin"
+  },
+  {
+    "date": "16.05.26",
+    "time": "11:17",
+    "unit": "UNDEFINED",
+    "value": "423",
+    "type": "measurement"
+  },
+  {
+    "date": "16.05.26",
+    "time": "16:54",
+    "unit": "UNDEFINED",
+    "value": "387",
+    "type": "measurement"
+  },
+  {
+    "date": "16.05.26",
+    "time": "16:55",
+    "unit": "UNDEFINED",
+    "value": "FUTTER 1/2",
+    "type": "food"
+  },
+  {
+    "date": "16.05.26",
+    "time": "19:18",
+    "unit": "UNDEFINED",
+    "value": "424",
+    "type": "measurement"
+  },
+  {
+    "date": "16.05.26",
+    "time": "20:32",
+    "unit": "2",
+    "value": "INSULIN",
+    "type": "insulin"
+  },
+  {
+    "date": "17.05.26",
+    "time": "07:17",
+    "unit": "UNDEFINED",
+    "value": "385",
+    "type": "measurement"
+  },
+  {
+    "date": "17.05.26",
+    "time": "08:15",
+    "unit": "2",
+    "value": "INSULIN",
+    "type": "insulin"
+  },
+  {
+    "date": "17.05.26",
+    "time": "07:17",
+    "unit": "UNDEFINED",
+    "value": "FUTTER 1",
+    "type": "food"
+  },
+  {
+    "date": "17.05.26",
+    "time": "13:20",
+    "unit": "UNDEFINED",
+    "value": "387",
+    "type": "measurement"
+  },
+  {
+    "date": "17.05.26",
+    "time": "13:20",
+    "unit": "UNDEFINED",
+    "value": "1/2 FUTTER",
+    "type": "food"
+  },
+  {
+    "date": "17.05.26",
+    "time": "16:30",
+    "unit": "UNDEFINED",
+    "value": "371",
+    "type": "measurement"
+  },
+  {
+    "date": "17.05.26",
+    "time": "19:28",
+    "unit": "UNDEFINED",
+    "value": "452",
+    "type": "measurement"
+  },
+  {
+    "date": "17.05.26",
+    "time": "19:30",
+    "unit": "UNDEFINED",
+    "value": "1 FUTTER",
+    "type": "food"
+  },
+  {
+    "date": "17.05.26",
+    "time": "20:25",
+    "unit": "2",
+    "value": "INSULIN",
+    "type": "insulin"
+  },
+  {
+    "date": "18.05.26",
+    "time": "07:33",
+    "unit": "UNDEFINED",
+    "value": "290",
+    "type": "measurement"
+  },
+  {
+    "date": "18.05.26",
+    "time": "07:33",
+    "unit": "UNDEFINED",
+    "value": "1 FUTTER",
+    "type": "food"
+  },
+  {
+    "date": "18.05.26",
+    "time": "08:43",
+    "unit": "2",
+    "value": "INSULIN",
+    "type": "insulin"
+  },
+  {
+    "date": "18.05.26",
+    "time": "12:10",
+    "unit": "UNDEFINED",
+    "value": "412",
+    "type": "measurement"
+  },
+  {
+    "date": "18.05.26",
+    "time": "15:05",
+    "unit": "UNDEFINED",
+    "value": "284",
+    "type": "measurement"
+  },
+  {
+    "date": "18.05.26",
+    "time": "19:17",
+    "unit": "UNDEFINED",
+    "value": "497",
+    "type": "measurement"
+  },
+  {
+    "date": "18.05.26",
+    "time": "19:20",
+    "unit": "UNDEFINED",
+    "value": "1 FUTTER",
+    "type": "food"
+  },
+  {
+    "date": "18.05.26",
+    "time": "20:22",
+    "unit": "2",
+    "value": "INSULIN",
+    "type": "insulin"
+  },
+  {
+    "date": "19.05.26",
+    "time": "04:31",
+    "unit": "UNDEFINED",
+    "value": "373",
+    "type": "measurement"
+  },
+  {
+    "date": "19.05.26",
+    "time": "07:32",
+    "unit": "UNDEFINED",
+    "value": "1 FUTTER",
+    "type": "food"
+  },
+  {
+    "date": "19.05.26",
+    "time": "12:35",
+    "unit": "UNDEFINED",
+    "value": "382",
+    "type": "measurement"
+  },
+  {
+    "date": "19.05.26",
+    "time": "12:35",
+    "unit": "UNDEFINED",
+    "value": "1 FUTTER",
+    "type": "food"
+  },
+  {
+    "date": "19.05.26",
+    "time": "16:20",
+    "unit": "UNDEFINED",
+    "value": "280",
+    "type": "measurement"
+  },
+  {
+    "date": "19.05.26",
+    "time": "19:17",
+    "unit": "UNDEFINED",
+    "value": "348",
+    "type": "measurement"
+  },
+  {
+    "date": "19.05.26",
+    "time": "19:20",
+    "unit": "UNDEFINED",
+    "value": "1 FUTTER",
+    "type": "food"
+  },
+  {
+    "date": "19.05.26",
+    "time": "20:27",
+    "unit": "2",
+    "value": "INSULIN",
+    "type": "insulin"
+  },
+  {
+    "date": "20.05.26",
+    "time": "07:23",
+    "unit": "2",
+    "value": "562",
+    "type": "measurement"
+  },
+  {
+    "date": "20.05.26",
+    "time": "07:23",
+    "unit": "UNDEFINED",
+    "value": "1 FUTTER",
+    "type": "food"
+  },
+  {
+    "date": "20.05.26",
+    "time": "08:21",
+    "unit": "2",
+    "value": "477",
+    "type": "measurement"
+  },
+  {
+    "date": "20.05.26",
+    "time": "12:30",
+    "unit": "UNDEFINED",
+    "value": "1/2 FUTTER",
+    "type": "food"
+  },
+  {
+    "date": "21.05.26",
+    "time": "16:20",
+    "unit": "UNDEFINED",
+    "value": "405",
+    "type": "measurement"
+  },
+  {
+    "date": "21.05.26",
+    "time": "18:30",
+    "unit": "UNDEFINED",
+    "value": "1 FUTTER",
+    "type": "food"
+  },
+  {
+    "date": "21.05.26",
+    "time": "19:00",
+    "unit": "2",
+    "value": "INSULIN",
+    "type": "insulin"
+  },
+  {
+    "date": "21.05.26",
+    "time": "07:02",
+    "unit": "UNDEFINED",
+    "value": "474",
+    "type": "measurement"
+  },
+  {
+    "date": "21.05.26",
+    "time": "07:03",
+    "unit": "UNDEFINED",
+    "value": "1 FUTTER",
+    "type": "food"
+  },
+  {
+    "date": "21.05.26",
+    "time": "08:08",
+    "unit": "2",
+    "value": "INSULIN",
+    "type": "insulin"
+  },
+  {
+    "date": "21.05.26",
+    "time": "12:42",
+    "unit": "UNDEFINED",
+    "value": "301",
+    "type": "measurement"
+  },
+  {
+    "date": "21.05.26",
+    "time": "10:43",
+    "unit": "UNDEFINED",
+    "value": "1 FUTTER",
+    "type": "food"
+  },
+  {
+    "date": "21.05.26",
+    "time": "16:15",
+    "unit": "UNDEFINED",
+    "value": "324",
+    "type": "measurement"
+  },
+  {
+    "date": "21.05.26",
+    "time": "19:12",
+    "unit": "UNDEFINED",
+    "value": "437",
+    "type": "measurement"
+  },
+  {
+    "date": "21.05.26",
+    "time": "19:13",
+    "unit": "UNDEFINED",
+    "value": "1 FUTTER",
+    "type": "food"
+  },
+  {
+    "date": "21.05.26",
+    "time": "20:05",
+    "unit": "2",
+    "value": "INSULIN",
+    "type": "insulin"
+  },
+  {
+    "date": "22.05.26",
+    "time": "08:04",
+    "unit": "2",
+    "value": "INSULIN",
+    "type": "insulin"
+  },
+  {
+    "date": "22.05.26",
+    "time": "06:57",
+    "unit": "UNDEFINED",
+    "value": "1 FUTTER",
+    "type": "food"
+  },
+  {
+    "date": "22.05.26",
+    "time": "12:27",
+    "unit": "UNDEFINED",
+    "value": "305",
+    "type": "measurement"
+  },
+  {
+    "date": "22.05.26",
+    "time": "12:30",
+    "unit": "UNDEFINED",
+    "value": "1 FUTTER",
+    "type": "food"
+  },
+  {
+    "date": "22.05.26",
+    "time": "16:00",
+    "unit": "UNDEFINED",
+    "value": "1/2 FUTTER",
+    "type": "food"
+  },
+  {
+    "date": "22.05.26",
+    "time": "16:30",
+    "unit": "UNDEFINED",
+    "value": "314",
+    "type": "measurement"
+  },
+  {
+    "date": "22.05.26",
+    "time": "17:53",
+    "unit": "UNDEFINED",
+    "value": "370",
+    "type": "measurement"
+  },
+  {
+    "date": "22.05.26",
+    "time": "18:50",
+    "unit": "UNDEFINED",
+    "value": "373",
+    "type": "measurement"
+  },
+  {
+    "date": "22.05.26",
+    "time": "19:15",
+    "unit": "2",
+    "value": "INSULIN",
+    "type": "insulin"
+  },
+  {
+    "date": "23.05.26",
+    "time": "07:06",
+    "unit": "UNDEFINED",
+    "value": "520",
+    "type": "measurement"
+  },
+  {
+    "date": "23.05.26",
+    "time": "07:20",
+    "unit": "2",
+    "value": "INSULIN",
+    "type": "insulin"
+  },
+  {
+    "date": "23.05.26",
+    "time": "11:44",
+    "unit": "UNDEFINED",
+    "value": "520",
+    "type": "measurement"
+  },
+  {
+    "date": "23.05.26",
+    "time": "15:04",
+    "unit": "UNDEFINED",
+    "value": "467",
+    "type": "measurement"
+  },
+  {
+    "date": "23.05.26",
+    "time": "18:42",
+    "unit": "UNDEFINED",
+    "value": "463",
+    "type": "measurement"
+  },
+  {
+    "date": "23.05.26",
+    "time": "18:45",
+    "unit": "UNDEFINED",
+    "value": "1 Sackerl",
+    "type": "food"
+  },
+  {
+    "date": "23.05.26",
+    "time": "19:08",
+    "unit": "2",
+    "value": "INSULIN",
+    "type": "insulin"
+  },
+  {
+    "date": "23.05.26",
+    "time": "06:52",
+    "unit": "UNDEFINED",
+    "value": "237",
+    "type": "measurement"
+  },
+  {
+    "date": "23.05.26",
+    "time": "07:24",
+    "unit": "2",
+    "value": "INSULIN",
+    "type": "insulin"
+  },
+  {
+    "date": "23.05.26",
+    "time": "11:00",
+    "unit": "UNDEFINED",
+    "value": "1/2 FUTTER",
+    "type": "food"
+  },
+  {
+    "date": "23.05.26",
+    "time": "13:00",
+    "unit": "UNDEFINED",
+    "value": "1/2 BRKIES",
+    "type": "food"
+  },
+  {
+    "date": "23.05.26",
+    "time": "15:00",
+    "unit": "UNDEFINED",
+    "value": "476",
+    "type": "measurement"
+  },
+  {
+    "date": "23.05.26",
+    "time": "16:28",
+    "unit": "UNDEFINED",
+    "value": "529",
+    "type": "measurement"
+  },
+  {
+    "date": "23.05.26",
+    "time": "19:12",
+    "unit": "UNDEFINED",
+    "value": "1 ESSEN",
+    "type": "food"
+  },
+  {
+    "date": "23.05.26",
+    "time": "19:20",
+    "unit": "2",
+    "value": "INSULIN",
+    "type": "insulin"
+  },
+  {
+    "date": "25.05.26",
+    "time": "07:15",
+    "unit": "UNDEFINED",
+    "value": "416",
+    "type": "measurement"
+  },
+  {
+    "date": "25.05.26",
+    "time": "07:20",
+    "unit": "2",
+    "value": "INSULIN",
+    "type": "insulin"
+  },
+  {
+    "date": "25.05.26",
+    "time": "07:10",
+    "unit": "UNDEFINED",
+    "value": "1 FUTTER",
+    "type": "food"
+  },
+  {
+    "date": "25.05.26",
+    "time": "11:00",
+    "unit": "UNDEFINED",
+    "value": "1/2 NASS",
+    "type": "food"
+  },
+  {
+    "date": "25.05.26",
+    "time": "13:00",
+    "unit": "UNDEFINED",
+    "value": "10 Kroketen",
+    "type": "food"
+  },
+  {
+    "date": "25.05.26",
+    "time": "16:00",
+    "unit": "UNDEFINED",
+    "value": "1/2 NASS",
+    "type": "food"
+  },
+  {
+    "date": "25.05.26",
+    "time": "18:36",
+    "unit": "UNDEFINED",
+    "value": "505",
+    "type": "measurement"
+  },
+  {
+    "date": "25.05.26",
+    "time": "19:00",
+    "unit": "UNDEFINED",
+    "value": "1 FUTTER",
+    "type": "food"
+  },
+  {
+    "date": "26.05.26",
+    "time": "07:00",
+    "unit": "UNDEFINED",
+    "value": "436",
+    "type": "measurement"
+  },
+  {
+    "date": "26.05.26",
+    "time": "07:20",
+    "unit": "2",
+    "value": "INSULIN",
+    "type": "insulin"
+  },
+  {
+    "date": "26.05.26",
+    "time": "18:21",
+    "unit": "UNDEFINED",
+    "value": "385",
+    "type": "measurement"
+  },
+  {
+    "date": "26.05.26",
+    "time": "11:30",
+    "unit": "UNDEFINED",
+    "value": "1/2 FUTTER",
+    "type": "food"
+  },
+  {
+    "date": "26.05.26",
+    "time": "13:00",
+    "unit": "UNDEFINED",
+    "value": "1/2 FUTTER",
+    "type": "food"
+  },
+  {
+    "date": "26.05.26",
+    "time": "17:00",
+    "unit": "UNDEFINED",
+    "value": "1/2 FUTTER",
+    "type": "food"
+  },
+  {
+    "date": "26.05.26",
+    "time": "19:10",
+    "unit": "UNDEFINED",
+    "value": "1 FUTTER",
+    "type": "food"
+  },
+  {
+    "date": "26.05.26",
+    "time": "19:20",
+    "unit": "2",
+    "value": "INSULIN",
+    "type": "insulin"
+  },
+  {
+    "date": "27.05.26",
+    "time": "07:10",
+    "unit": "UNDEFINED",
+    "value": "260",
+    "type": "measurement"
+  },
+  {
+    "date": "27.05.26",
+    "time": "07:10",
+    "unit": "UNDEFINED",
+    "value": "1 NASS",
+    "type": "food"
+  },
+  {
+    "date": "27.05.26",
+    "time": "07:25",
+    "unit": "2",
+    "value": "INSULIN",
+    "type": "insulin"
+  },
+  {
+    "date": "27.05.26",
+    "time": "11:00",
+    "unit": "UNDEFINED",
+    "value": "1/2 NASS",
+    "type": "food"
+  },
+  {
+    "date": "27.05.26",
+    "time": "13:00",
+    "unit": "UNDEFINED",
+    "value": "1/2 NASS",
+    "type": "food"
+  },
+  {
+    "date": "27.05.26",
+    "time": "17:30",
+    "unit": "UNDEFINED",
+    "value": "1/2 NASS",
+    "type": "food"
+  },
+  {
+    "date": "27.05.26",
+    "time": "18:55",
+    "unit": "UNDEFINED",
+    "value": "404",
+    "type": "measurement"
+  },
+  {
+    "date": "27.05.26",
+    "time": "18:57",
+    "unit": "UNDEFINED",
+    "value": "1 NASS",
+    "type": "food"
+  },
+  {
+    "date": "27.05.26",
+    "time": "19:20",
+    "unit": "2",
+    "value": "INSULIN",
+    "type": "insulin"
+  },
+  {
+    "date": "28.05.26",
+    "time": "07:05",
+    "unit": "UNDEFINED",
+    "value": "372",
+    "type": "measurement"
+  },
+  {
+    "date": "28.05.26",
+    "time": "07:05",
+    "unit": "UNDEFINED",
+    "value": "1 NASS",
+    "type": "food"
+  },
+  {
+    "date": "28.05.26",
+    "time": "11:00",
+    "unit": "UNDEFINED",
+    "value": "1/2 NASS",
+    "type": "food"
+  },
+  {
+    "date": "28.05.26",
+    "time": "13:00",
+    "unit": "UNDEFINED",
+    "value": "1/2 NASS",
+    "type": "food"
+  },
+  {
+    "date": "28.05.26",
+    "time": "17:30",
+    "unit": "UNDEFINED",
+    "value": "1/2 NASS",
+    "type": "food"
+  },
+  {
+    "date": "28.05.26",
+    "time": "17:58",
+    "unit": "UNDEFINED",
+    "value": "426",
+    "type": "measurement"
+  },
+  {
+    "date": "28.05.26",
+    "time": "18:00",
+    "unit": "UNDEFINED",
+    "value": "1 NASS",
+    "type": "food"
+  }
+]

@@ -1,9 +1,6 @@
 <template>
   <div>
-    <Dashboard />
+    <NuxtPage />
+    <BottomNav />
   </div>
 </template>
-
-<script setup>
-import Dashboard from "../public/components/Dashboard.vue";
-</script>

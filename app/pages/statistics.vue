@@ -11,9 +11,21 @@
       </button>
     </div>
 
+    <!-- Date Navigation -->
+    <div class="date-nav">
+      <button class="date-nav-btn" @click="navigate(-1)" aria-label="Previous period">‹</button>
+      <button class="date-nav-label" @click="goToToday">{{ periodLabel }}</button>
+      <button class="date-nav-btn" @click="navigate(1)" aria-label="Next period">›</button>
+    </div>
+
+    <!-- Day view: date picker -->
+    <div v-if="selectedRange === 'day'" class="date-picker-row">
+      <input type="date" class="form-input" :value="selectedDateStr" @input="onDatePick" aria-label="Select date" />
+    </div>
+
     <!-- Summary Cards -->
     <div class="app-card">
-      <div class="app-card-title">{{ rangeLabel }} Summary</div>
+      <div class="app-card-title">{{ rangeTitle }} Summary</div>
       <div class="stat-grid stat-grid--3">
         <div class="stat-item">
           <div class="stat-value">{{ periodStats.avgGlucose ?? '—' }}</div>
@@ -44,73 +56,79 @@
 
     <!-- Glucose Chart -->
     <div class="app-card">
-      <div class="d-flex align-items-center justify-content-between mb-2">
-        <div class="app-card-title mb-0">Glucose Trend</div>
+      <div class="app-card-title mb-1">
+        {{ selectedRange === 'day' ? 'Glucose Measurements' : 'Glucose Trend' }}
       </div>
 
-      <div v-if="chartData.length === 0" class="empty-state" style="padding:24px 0">
+      <div v-if="hasNoGlucose" class="empty-state" style="padding:24px 0">
         <div class="empty-state-icon">📊</div>
         <p class="empty-state-text">No glucose data for this period</p>
       </div>
 
       <template v-else>
-        <!-- Target range band hint -->
-        <div class="chart-range-hint">
-          <span class="chart-range-band"></span>
-          <span class="chart-range-text">Target: 80–199 mg/dL</span>
+        <!-- Legend hint -->
+        <div class="chart-legend-row">
+          <span class="chart-legend-item">
+            <span class="chart-legend-swatch" style="background:#2563eb"></span>
+            {{ selectedRange === 'day' ? 'Glucose' : 'Daily Avg' }}
+          </span>
+          <span v-if="selectedRange !== 'day'" class="chart-legend-item">
+            <span class="chart-legend-swatch chart-legend-swatch--dashed" style="background:#f59e0b"></span>
+            {{ selectedRange === 'week' ? 'Week Avg' : 'Month Avg' }}
+          </span>
+          <span class="chart-range-text" style="margin-left:auto">Target: 80–199 mg/dL</span>
         </div>
 
         <ClientOnly>
-          <LineChart :data="lineChartData" :categories="lineChartCategories" :height="220" :xFormatter="xFormatter"
-            :yFormatter="yFormatter" curveType="monotoneX" :yDomain="[40, yMax]" :yGridLine="true"
-            :xNumTicks="xTickCount" :lineWidth="2" />
+          <LineChart :data="lineChartData" :categories="lineChartCategories" :height="240" :xFormatter="xFormatter"
+            :yFormatter="yFormatter" :curveType="selectedRange === 'day' ? 'monotoneX' : 'monotoneX'"
+            :yDomain="[0, yMax]" :yGridLine="true" :xNumTicks="xTickCount" :lineWidth="2" :lineDashArray="lineDash" />
         </ClientOnly>
 
-        <!-- Event markers timeline -->
+        <!-- Event markers -->
         <div v-if="visibleMarkers.length > 0" class="event-timeline">
-          <div class="event-timeline-label">Events</div>
+          <div class="event-timeline-label">Events on timeline</div>
           <div class="event-markers-scroll">
-            <button v-for="(marker, idx) in visibleMarkers" :key="idx" class="event-marker"
+            <button v-for="(marker, idx) in visibleMarkers" :key="marker.entry.id" class="event-marker"
               :class="`event-marker--${marker.entry.type}`" @click="toggleMarkerDetail(idx)"
-              :aria-label="`${marker.entry.type} event: ${marker.label}`">
+              :aria-label="`${marker.entry.type}: ${marker.label}`">
               <span class="event-marker-icon">{{ marker.entry.type === 'insulin' ? '💉' : '🍎' }}</span>
-              <span class="event-marker-text">{{ marker.label }}</span>
+              <span class="event-marker-text">{{ marker.time }} · {{ marker.label }}</span>
             </button>
           </div>
 
-          <!-- Marker detail popup -->
           <Transition name="fade">
-            <div v-if="activeMarkerIdx !== null" class="marker-detail">
+            <div v-if="activeMarkerIdx !== null && activeMarker" class="marker-detail">
               <div class="marker-detail-header">
                 <span class="marker-detail-type">
-                  {{ activeMarker!.entry.type === 'insulin' ? '💉 Insulin' : '🍎 Food' }}
+                  {{ activeMarker.entry.type === 'insulin' ? '💉 Insulin' : '🍎 Food' }}
                 </span>
                 <button class="marker-detail-close" @click="activeMarkerIdx = null" aria-label="Close">✕</button>
               </div>
               <div class="marker-detail-body">
-                <div v-if="activeMarker!.entry.type === 'insulin'" class="marker-detail-value">
-                  {{ activeMarker!.entry.unit }} units
+                <div v-if="activeMarker.entry.type === 'insulin'" class="marker-detail-value">
+                  {{ activeMarker.entry.unit }} units
                 </div>
                 <div class="marker-detail-time">
-                  {{ formatMarkerTime(activeMarker!.entry.measured_at) }}
+                  {{ formatFullTime(activeMarker.entry.measured_at) }}
                 </div>
-                <div v-if="activeMarker!.entry.note" class="marker-detail-note">
-                  {{ activeMarker!.entry.note }}
+                <div v-if="activeMarker.entry.note" class="marker-detail-note">
+                  {{ activeMarker.entry.note }}
                 </div>
               </div>
             </div>
           </Transition>
         </div>
 
-        <!-- Marker Toggles -->
+        <!-- Marker toggles -->
         <div class="marker-toggles">
           <label class="marker-toggle">
             <input type="checkbox" v-model="showInsulin" />
-            <span class="marker-toggle-label">💉 Insulin markers</span>
+            <span class="marker-toggle-label">💉 Insulin</span>
           </label>
           <label class="marker-toggle">
             <input type="checkbox" v-model="showFood" />
-            <span class="marker-toggle-label">🍎 Food markers</span>
+            <span class="marker-toggle-label">🍎 Food</span>
           </label>
         </div>
       </template>
@@ -148,10 +166,10 @@
       </div>
     </div>
 
-    <!-- Daily / Period Averages -->
+    <!-- Data table -->
     <div class="app-card">
-      <div class="app-card-title">{{ selectedRange === 'day' ? 'Hourly Readings' : 'Daily Averages' }}</div>
-      <div v-if="chartData.length === 0" class="empty-state" style="padding:12px 0">
+      <div class="app-card-title">{{ selectedRange === 'day' ? 'Readings' : 'Daily Averages' }}</div>
+      <div v-if="nonNullChartData.length === 0" class="empty-state" style="padding:12px 0">
         <p class="empty-state-text">No data available</p>
       </div>
       <div v-else>
@@ -175,6 +193,7 @@ import type { TimeRange } from '~/composables/useStatistics'
 const { entries } = useEntries()
 
 const selectedRange = ref<TimeRange>('week')
+const selectedDate = ref(new Date())
 const showInsulin = ref(true)
 const showFood = ref(true)
 const activeMarkerIdx = ref<number | null>(null)
@@ -185,10 +204,20 @@ const rangeTabs = [
   { label: 'Month', value: 'month' as TimeRange },
 ]
 
-const rangeLabel = computed(() => {
-  const labels: Record<TimeRange, string> = { day: 'Today', week: 'This Week', month: 'This Month' }
-  return labels[selectedRange.value]
+const rangeTitle = computed(() => {
+  const m: Record<TimeRange, string> = { day: 'Daily', week: 'Weekly', month: 'Monthly' }
+  return m[selectedRange.value]
 })
+
+const selectedDateStr = computed(() => {
+  const d = selectedDate.value
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`
+})
+
+function onDatePick(e: Event) {
+  const val = (e.target as HTMLInputElement).value
+  if (val) selectedDate.value = new Date(val + 'T00:00:00')
+}
 
 const {
   filteredEntries,
@@ -196,46 +225,67 @@ const {
   chartData,
   insulinMarkers,
   foodMarkers,
-} = useStatistics(entries, selectedRange)
+  periodLabel,
+  navigate,
+  goToToday,
+} = useStatistics(entries, selectedRange, selectedDate)
 
-// Close marker detail when range changes
-watch(selectedRange, () => { activeMarkerIdx.value = null })
+// Reset detail when anything changes
+watch([selectedRange, selectedDate], () => { activeMarkerIdx.value = null })
 
-// Combine visible markers
+// ── Markers ──
 const visibleMarkers = computed(() => {
   const markers = [
     ...(showInsulin.value ? insulinMarkers.value : []),
     ...(showFood.value ? foodMarkers.value : []),
   ]
-  return markers.sort((a, b) => a.index - b.index)
+  return markers.sort((a, b) => new Date(a.entry.measured_at).getTime() - new Date(b.entry.measured_at).getTime())
 })
 
 const activeMarker = computed(() =>
-  activeMarkerIdx.value !== null ? visibleMarkers.value[activeMarkerIdx.value] : null
+  activeMarkerIdx.value !== null ? visibleMarkers.value[activeMarkerIdx.value] ?? null : null
 )
 
 function toggleMarkerDetail(idx: number) {
   activeMarkerIdx.value = activeMarkerIdx.value === idx ? null : idx
 }
 
-// Chart data for LineChart component
-const lineChartData = computed(() =>
-  chartData.value.map(p => ({
+// ── Chart config ──
+const hasNoGlucose = computed(() => chartData.value.every(p => p.glucose === null))
+
+const lineChartData = computed(() => {
+  if (selectedRange.value === 'day') {
+    return chartData.value.map(p => ({ idx: p.index, glucose: p.glucose }))
+  }
+  // Week/Month: two series
+  return chartData.value.map(p => ({
     idx: p.index,
     glucose: p.glucose,
+    average: p.average,
   }))
-)
+})
 
-const lineChartCategories = {
-  glucose: {
-    name: 'Glucose (mg/dL)',
-    color: '#2563eb',
-  },
-}
+const lineChartCategories = computed(() => {
+  if (selectedRange.value === 'day') {
+    return {
+      glucose: { name: 'Glucose (mg/dL)', color: '#2563eb' },
+    }
+  }
+  const avgLabel = selectedRange.value === 'week' ? 'Week Average' : 'Month Average'
+  return {
+    glucose: { name: 'Daily Average', color: '#2563eb' },
+    average: { name: avgLabel, color: '#f59e0b' },
+  }
+})
+
+const lineDash = computed(() => {
+  if (selectedRange.value === 'day') return undefined
+  return [undefined, [6, 4]] // solid for glucose, dashed for average
+})
 
 const yMax = computed(() => {
   const max = periodStats.value.maxGlucose ?? 200
-  return Math.max(250, Math.ceil(max / 50) * 50 + 50)
+  return Math.max(300, Math.ceil(max / 50) * 50 + 50)
 })
 
 const xTickCount = computed(() => {
@@ -251,11 +301,9 @@ const xFormatter = (i: number) => {
 
 const yFormatter = (tick: number) => `${tick}`
 
-const nonNullChartData = computed(() =>
-  chartData.value.filter(p => p.glucose !== null)
-)
+const nonNullChartData = computed(() => chartData.value.filter(p => p.glucose !== null))
 
-// Type counts for the filtered period
+// ── Type counts ──
 function typeCount(type: string) {
   return filteredEntries.value.filter(e => e.type === type).length
 }
@@ -267,7 +315,7 @@ function typePercent(type: string) {
 }
 
 function barWidth(avg: number) {
-  return Math.min(100, Math.max(8, (avg / 400) * 100))
+  return Math.min(100, Math.max(8, (avg / 600) * 100))
 }
 
 function barColor(avg: number) {
@@ -276,10 +324,10 @@ function barColor(avg: number) {
   return 'var(--color-success)'
 }
 
-function formatMarkerTime(dateStr: string) {
+function formatFullTime(dateStr: string) {
   const d = new Date(dateStr)
-  return d.toLocaleDateString([], { month: 'short', day: 'numeric' }) +
-    ' ' + d.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
+  return d.toLocaleDateString([], { weekday: 'short', month: 'short', day: 'numeric' }) +
+    ', ' + d.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
 }
 
 useHead({ title: 'Statistics – Diabetecat' })
@@ -291,7 +339,7 @@ useHead({ title: 'Statistics – Diabetecat' })
   background: var(--color-card);
   border-radius: 10px;
   padding: 4px;
-  margin-bottom: 12px;
+  margin-bottom: 8px;
   border: 1px solid var(--color-border);
 }
 
@@ -315,6 +363,57 @@ useHead({ title: 'Statistics – Diabetecat' })
   box-shadow: 0 1px 3px rgba(37, 99, 235, 0.3);
 }
 
+/* Date navigation */
+.date-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.date-nav-btn {
+  width: 44px;
+  height: 44px;
+  border: 1px solid var(--color-border);
+  background: var(--color-card);
+  border-radius: 10px;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--color-text);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.date-nav-btn:active {
+  background: var(--color-bg);
+}
+
+.date-nav-label {
+  border: none;
+  background: none;
+  font-size: 0.938rem;
+  font-weight: 700;
+  color: var(--color-text);
+  cursor: pointer;
+  padding: 8px 12px;
+  border-radius: 8px;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+}
+
+.date-nav-label:active {
+  background: var(--color-primary-light);
+  color: var(--color-primary);
+}
+
+.date-picker-row {
+  margin-bottom: 12px;
+}
+
+/* Stats */
 .stat-grid--3 {
   grid-template-columns: repeat(3, 1fr);
 }
@@ -327,23 +426,41 @@ useHead({ title: 'Statistics – Diabetecat' })
   color: var(--color-primary);
 }
 
-.chart-range-hint {
+/* Chart legend */
+.chart-legend-row {
   display: flex;
   align-items: center;
-  gap: 6px;
+  gap: 12px;
   margin-bottom: 8px;
+  flex-wrap: wrap;
 }
 
-.chart-range-band {
-  width: 20px;
-  height: 8px;
+.chart-legend-item {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.688rem;
+  font-weight: 600;
+  color: var(--color-text-muted);
+}
+
+.chart-legend-swatch {
+  width: 16px;
+  height: 3px;
   border-radius: 2px;
-  background: var(--color-success-light);
-  border: 1px solid var(--color-success);
+}
+
+.chart-legend-swatch--dashed {
+  background: repeating-linear-gradient(to right,
+      currentColor 0,
+      currentColor 4px,
+      transparent 4px,
+      transparent 7px) !important;
+  height: 3px;
 }
 
 .chart-range-text {
-  font-size: 0.688rem;
+  font-size: 0.625rem;
   color: var(--color-text-muted);
 }
 

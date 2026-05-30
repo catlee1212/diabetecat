@@ -8,7 +8,7 @@ export default defineNuxtConfig({
     '~/assets/css/app.css',
   ],
   app: {
-    baseURL: import.meta.env.PROD ? '/diabetecat/' : '/',
+    baseURL: process.env.NODE_ENV === 'production' ? '/diabetecat/' : '/',
     head: {
       meta: [
         { name: 'theme-color', content: '#2563eb' },
@@ -18,6 +18,9 @@ export default defineNuxtConfig({
   },
 
   nitro: {
-    preset: 'github_pages'
-  }
+    preset: 'github_pages',
+    prerender: {
+      routes: ['/', '/dashboard', '/statistics', '/history', '/settings'],
+    },
+  },
 })
